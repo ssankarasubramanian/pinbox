@@ -4,16 +4,22 @@ $body-bg:     #eceeef;
 $font-family-sans-serif:        'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-bg:      #fff;
 $navbar-height:      45px;
-$navbar-default-brand-color:    #c0392b;
+$navbar-default-brand-color:   #c0392b;
 $brand-primary:       #c0392b;
 $jumbotron-bg:     white;
 
-@import 'bootstrap-sprockets';
-@import 'bootstrap';
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center{
 	text-align: center;
 }
-.navbar-brand{
-	font-weight: bold;
+.app_brand {
+	color: #c0392b;
 }
+.navbar-brand{
+	font-weight: bold;	
+}
+
