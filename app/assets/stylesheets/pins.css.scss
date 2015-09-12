@@ -23,7 +23,7 @@
 				color: #474747;
 	  	}
 	  }
-	  .user_email {
+	  .user_name {
 	  	font-size: 12px;
 			font-weight: bold;
 	  	border-top: 1px solid #EAEAEA;
@@ -60,5 +60,15 @@
 		.user_show {
 			padding-top: 8px;
 		}
+		.show-buttons{
+			margin-right: 10px;	
+			border-radius: 10%;
+		}
+		.show-buttons:hover,
+		.show-buttons:active{
+			border: 1px solid #c0392b;
+			color: #c0392b;
+		}
 	}
+	
 }
