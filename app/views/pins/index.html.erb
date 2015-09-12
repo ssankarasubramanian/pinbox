@@ -6,7 +6,7 @@
 			<%= link_to image_tag(pin.image.url(:medium)), pin %>
 			<div class="panel-body">	
 				<h4><%= link_to pin.description, pin %></h4>
-				<p class="user_email"><%= pin.user.email if pin.user %></p>				
+				<p class="user_email"><strong><%= pin.user.name if pin.user %></strong></p>				
 			</div>
 		</div>		
 	<% end %>
